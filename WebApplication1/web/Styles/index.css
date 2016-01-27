@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url("../Images/uno_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+lable
+{
+    text-align: center;
+    color:chartreuse;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 300;
+}
+.p{
+    height:250px;
+    width: 200px;
+    
+}
+.button1{
+border:1px solid #a8c1d5; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;font-size:12px;font-family:arial, helvetica, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; color: #FFFFFF;
+ background-color: #CEDCE7; background-image: -webkit-gradient(linear, left top, left bottom, from(#CEDCE7), to(#596a72));
+ background-image: -webkit-linear-gradient(top, #CEDCE7, #596a72);
+ background-image: -moz-linear-gradient(top, #CEDCE7, #596a72);
+ background-image: -ms-linear-gradient(top, #CEDCE7, #596a72);
+ background-image: -o-linear-gradient(top, #CEDCE7, #596a72);
+ background-image: linear-gradient(to bottom, #CEDCE7, #596a72);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#CEDCE7, endColorstr=#596a72);
+}
+
+.button1:hover{
+ border:1px solid #8aabc5;
+ background-color: #acc4d6; background-image: -webkit-gradient(linear, left top, left bottom, from(#acc4d6), to(#434f55));
+ background-image: -webkit-linear-gradient(top, #acc4d6, #434f55);
+ background-image: -moz-linear-gradient(top, #acc4d6, #434f55);
+ background-image: -ms-linear-gradient(top, #acc4d6, #434f55);
+ background-image: -o-linear-gradient(top, #acc4d6, #434f55);
+ background-image: linear-gradient(to bottom, #acc4d6, #434f55);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#acc4d6, endColorstr=#434f55);
+}
+.wrapper{
+    padding: 10px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.btngroup{
+    margin-top: 25px;
+}
+.image-radio input[type="radio"]:checked + img{
+    border:1px solid red;
+    width: 80px;
+}
+
+ 
+.btneach{
+    width: 25%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid blue;
+/*
+    background: -moz-linear-gradient(top, #ff2121 0%, #ff4c4c 51%, #ff2323 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff2121), color-stop(51%,#ff4c4c), color-stop(100%,#ff2323));
+*/
+    
+    background: -moz-linear-gradient(top, #ff0707 0%, #ff3a3a 51%, #ff0707 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,gray), color-stop(51%,black), color-stop(100%,gray));
+    box-shadow: 1px 1px 1px #9B1515;
+    color: white;
+    font-family: cursive;
+    font-weight: bolder;
+    text-shadow: 2px 2px 3px blue;
+    font-size: 1.5em !important;
+    
+}
+
+.tableStyle1{
+    width: 40%;
+    padding: 8px;
+   border-radius: 10px;
+  /*border: 3px solid #11425A;*/
+    background: -moz-linear-gradient(top, #ff0707 0%, #ff3a3a 51%, #ff0707 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#999), color-stop(51%,#555), color-stop(100%,#777));
+    color: #080808;
+    font-family: cursive;
+    font-weight: bolder;
+    text-shadow: 2px 2px 3px #777;
+    font-size: 0.9em;
+}
+.tableStyle1 td{
+    padding: 5px;
+    text-align: center;
+}
+.tableStyle1 input{
+    width: 45%;
+    color: #333;
+    padding-left: 5px;
+}
+.tableStyle1 button{
+    padding: 0px 30px 0px 20px;
+    color: black;
+    border-radius: 4px;
+}
+.tableStyle1 select{
+    width: 65%;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+
+.imgStyle{
+    margin-top: 30px;
+    width: 27%;
+}
+
+.separate{
+    height: 30px;
+}
+
+
+.content{
+    width: 50%;
+    padding: 2px;
+    border-radius: 10px;
+    border: 2px solid #31708f;
+    background: -moz-linear-gradient(top, #ff0707 0%, #ff3a3a 51%, #ff0707 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#428bca), color-stop(51%,#333), color-stop(100%,#428bca));
+    color: white;
+    font-family: cursive;
+    font-weight: bolder;
+    text-shadow: 2px 2px 3px blue;
+    font-size: 1.5em;
+}
+#TableDiv{
+    width: 100%;
+    display: block;
+    height: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #31708f;
+    background: -moz-linear-gradient(top, #ff0707 0%, #ff3a3a 51%, #ff0707 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#040E3E), color-stop(51%,#4984B9), color-stop(100%,#041E2B));
+    color: yellow;
+    font-family: cursive;
+    font-weight: bolder;
+    text-shadow: 2px 2px 3px blue;
+    font-size: 0.9em;
+}
+.image0{
+    left: 400px;
+}
+.image1{
+    left: 500px;
+}
+.image2{
+    left: 600px;
+}
+.image3{
+    left: 700px;
+}
+.image4{
+    left: 800px;
+}
+.image5{
+    left: 900px;
+}
+.image6{
+    left: 1000px;
+}
+.image7{
+    left: 1100px;
+}
+#DropArea{
+    width: 70%;
+    /* background: white; */
+}
+
+.DropBox{
+    display: inline;
+    width: 380px;
+    height: 260px;
+    float: right;
+    background: -moz-linear-gradient(top, #ff0707 0%, #ff3a3a 51%, #ff0707 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff0707), color-stop(51%,#ff3a3a), color-stop(100%,#ff0707));
+    margin-right: 150px;
+    border-radius: 25px;
+    margin-left: 20px;
+    border: 2px dotted white;
+}
+#btnDrawPile{
+    display: inline;
+}

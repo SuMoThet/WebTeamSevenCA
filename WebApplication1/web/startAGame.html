@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+       
+        <title>Start a game</title>
+               <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="Styles/index.css">
+        <link rel="stylesheet" href="Styles/bootstrap.css">
+        <link href="Styles/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="Styles/jquery-ui.css" rel="stylesheet" type="text/css"/>
+        <link href="Styles/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
+        
+        <script src="JS/jquery-1.11.1.js" type="text/javascript"></script>
+        <script src="JS/jquery.js" type="text/javascript"></script>
+        <script src="JS/bootstrap.min.js" type="text/javascript"></script>
+        <script src="JS/jquery-ui.min.js" type="text/javascript"></script>
+        <script src="JS/jquery-ui.js" type="text/javascript"></script>
+        <script src="JS/Login.js" type="text/javascript"></script>
+        <script src="JS/handlebars-v1.3.0.js" type="text/javascript"></script>
+        
+    </head>
+    <body>
+         <h1> start a game</h1>
+        <form action="createAGame/startAGame" method="post">
+			        <div class="wrapper">
+            
+                <center>
+              
+                    
+                        <table class="tableStyle1" id="showData" align="center">
+                            <tr>
+                                <td colspan="2" align="center" style="padding-top:30px; padding-bottom: 20px;"><h3><b>Start Game</b></h3></td>
+                            </tr>
+            
+                            
+                            
+                            
+                            <tr>
+                            <td>GameID:
+                                <input  id="game" name="gameId" ></td>
+                        </tr>
+                        
+                   
+                        
+                        
+               <tr>&nbsp;&nbsp;&nbsp;  <td colspan="2" style="padding-bottom: 30px;">
+                        <input id="enableButton" type="submit"  value="start a game" disabled="disabled" class="button1"/>
+                        </td>
+		</tr>
+             </table>
+                <div id="DropArea">
+                        
+                    </div>
+               
+                </center>
+            
+                     </div>
+        </form>
+          <script src="lib/jquery-2.2.0.js" type="application/javascript"></script>
+        <script src="startAGame.js"></script>
+    </body>
+</html>
+

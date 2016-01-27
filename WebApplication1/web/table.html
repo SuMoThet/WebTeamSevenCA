@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <script src="lib/jquery-2.2.0.js" type="application/javascript"></script>
+        <script src="table1.js"></script>
+         <script src="lib/jquery2-ui.js" type="application/javascript"></script>
+        <link rel="stylesheet" href="lib/jquery-ui.css">
+<!--         <link rel="stylesheet" href="Styles/index.css">-->
+         <style> 
+ body{
+                 font-family:Verdana;
+                 font-size:18px;
+                 margin:0 auto;
+             }
+             #container{
+             margin:0 auto;
+             width:1060px;
+             }
+             #containerCard{
+             margin-left:200px;
+             width:700px;
+             float: left;
+             }        
+             #Players{
+                position:absolute;
+             }
+             #Discard{
+                 height:260px;
+                 width:200px;
+                 margin:60px;
+                 float:left;
+             }
+              #DrawPile{
+                 height:260px;
+                 width:200px;
+                 margin:60px;
+                 float:left;
+             }
+.div-relative{position:relative} 
+.div-a{ position:absolute; left:30px}                                    
+.div-b{ position:absolute; left:50px}
+#result{
+    text-align: center;
+    color:red;
+    font-size: 40px;
+    font-family: fantasy;
+    font-weight: 600;
+}
+.button1{
+border:1px solid #a8c1d5; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;font-size:14px;font-family:arial, helvetica, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; color: black;
+ background-color: #CEDCE7; background-image: -webkit-gradient(linear, left top, left bottom, from(#CEDCE7), to(#596a72));
+ background-image: -webkit-linear-gradient(top, #CEDCE7, #596a72);
+ background-image: -moz-linear-gradient(top, #CEDCE7, #596a72);
+ background-image: -ms-linear-gradient(top, #CEDCE7, #596a72);
+ background-image: -o-linear-gradient(top, #CEDCE7, #596a72);
+ background-image: linear-gradient(to bottom, #CEDCE7, #596a72);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#CEDCE7, endColorstr=#596a72);
+}
+#name{
+    text-align: center;
+    color:red;
+    font-size: 40px;
+    font-family: fantasy;
+    font-weight: 600;
+}
+</style>
+    </head>
+    <body  background=./Images/Background.jpg>
+        <div id="container">
+        <h1 id="gameId"></h1>
+        <div id="Players">
+        <table>
+            <tr id="ta"></tr>
+        </table>
+        </div>
+        <div id="containerCard">
+            <div id="Discard">
+                <div id="discardPlace"></div>
+            </div>
+            <div id="DrawPile">
+                <div class="div-relative">
+                    <div id="drawPilePlace" class="div-a"></div>
+                <div id="draggable" class="div-b"><img src="http://localhost:8080/uno/Images/cards/back.png"/></div></div>
+                     
+            </div>
+        </div>
+        <table>
+            <div id="say"><lable id="name"></lable><br/><img src="http://localhost:8080/uno/Images/game_uno.png"/></div>
+                <ul id="result" > </ul>
+    </table>
+        <input id="returnButton" type="button"  value="Return The Discard Card" disabled="disabled" class="button1"/>
+        <br/><br/><br/>
+           
+          
+       
+          <form action="createAGame/startAGame" method="post">
+                       <input id="gameId1" name="gameId" type="hidden"  />
+                      
+                      <input id="continue" type="submit"  value="continue a game" display="none" class="button1" />
+		</tr>
+		</tr>
+                   </form>
+        </div>
+    </body>
+</html>
